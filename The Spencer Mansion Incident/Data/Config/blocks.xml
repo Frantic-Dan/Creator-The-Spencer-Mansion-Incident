@@ -21014,6 +21014,7 @@ NOT the TextureNumber.
 	<property name="Collide" value="melee"/>
 	<drop event="Destroy" name="Anti-Tyrant Rocket Launcher" count="1"/>
 	<drop event="Destroy" name="ammoRocketHE" count="1"/>
+	<drop event="Fall" name="ammoRocketHE" count="1" prob="1.0" stick_chance="0"/>
 	<property name="FilterTags" value="floot"/>
 </block>
 
