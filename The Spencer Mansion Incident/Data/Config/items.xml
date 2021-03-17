@@ -21172,9 +21172,9 @@ perkNightStalkerSilentNight
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkShotgunMessiahDamage" level="-1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="125"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkShotgunMessiahComplete" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="5"/></triggered_effect>
+			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="4"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="5"/></triggered_effect>
+			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="4"/></triggered_effect>
 	</effect_group>
 </item>
 <item name="bookShotgunMessiahBreachingSlugs"> <!-- breaching vol 2 -->
@@ -21198,9 +21198,9 @@ perkNightStalkerSilentNight
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkShotgunMessiahLimbShot" level="-1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="125"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkShotgunMessiahComplete" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="5"/></triggered_effect>
+			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="4"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="5"/></triggered_effect>
+			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="4"/></triggered_effect>
 	</effect_group>
 </item>
 <item name="bookShotgunMessiahSlugs">
@@ -21211,9 +21211,9 @@ perkNightStalkerSilentNight
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkShotgunMessiahSlugs" level="-1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="125"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkShotgunMessiahComplete" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="5"/></triggered_effect>
+			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="4"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="5"/></triggered_effect>
+			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="4"/></triggered_effect>
 	</effect_group>
 </item>
 
@@ -21251,9 +21251,9 @@ perkNightStalkerSilentNight
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkShotgunMessiahPartyStarter" level="-1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="125"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkShotgunMessiahComplete" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="5"/></triggered_effect>
+			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="4"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="5"/></triggered_effect>
+			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="4"/></triggered_effect>
 	</effect_group>
 </item>
 
