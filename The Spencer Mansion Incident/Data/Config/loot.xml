@@ -2057,7 +2057,7 @@ The overall plan for loot distribution:
 	<item name="bookShotgunMessiahDamage"/>
 	<item name="bookShotgunMessiahLimbShot"/>
 	<!-- <item name="bookShotgunMessiahMaintenance"/> -->
-	<item name="bookShotgunMessiahMagazine"/>
+	<!-- <item name="bookShotgunMessiahMagazine"/> -->
 	<item name="bookShotgunMessiahPartyStarter"/>
 	<item name="bookShotgunMessiahSlugs"/>
 	<item name="bookSniperAPAmmo"/>
