@@ -1231,8 +1231,8 @@ Mesh files no longer used:
 		<!--<passive_effect name="BlockDamage" operation="perc_add" value="6" tags="blockButcher"/>-->
 	</effect_group>
 	<effect_group name="Power Attack">
-		<passive_effect name="EntityDamage" operation="base_add" value="3.1" tags="secondary"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="6.2" tags="secondary"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="0.5" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="AttacksPerMinute" operation="base_add" value="-55" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_set" value="13.5" tags="secondary"/>
@@ -1332,8 +1332,8 @@ Mesh files no longer used:
 		<!--<passive_effect name="BlockDamage" operation="perc_add" value="6" tags="blockButcher"/>-->
 	</effect_group>
 	<effect_group name="Power Attack">
-		<passive_effect name="EntityDamage" operation="base_add" value="4.65" tags="secondary"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="9.3" tags="secondary"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="0.5" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="AttacksPerMinute" operation="base_add" value="-55" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_set" value="13.5" tags="secondary"/>
