@@ -2117,7 +2117,7 @@ onSelfDestroyedBlock && onSelfDamagedBlock were not yet
 		</effect_group>
 	</buff>
 
-	<buff name="buffPoisoned" name_key="buffPoisonedName" description_key="buffPoisonedDesc" tooltip_key="buffPoisonedTooltip" icon="ui_game_symbol_critical" icon_color="255,0,255" icon_blink="true">
+	<buff name="buffPoisoned" name_key="buffPoisonedName" description_key="buffPoisonedDesc" tooltip_key="buffPoisonedTooltip" icon="ui_game_symbol_critical" remove_on_death="false" icon_color="255,0,255" icon_blink="true">
 		<damage_type value="bloodloss"/>
 		<damage_source value="Internal"/>
 		<stack_type value="ignore"/>
@@ -4272,7 +4272,7 @@ The abrasion healing rate is fastest with a first aid kit, then a medicated band
 		</effect_group>
 	</buff>
 
-	<buff name="buffNearDeathTrauma" name_key="buffNearDeathTraumaName" description_key="buffNearDeathTraumaDesc" icon="ui_game_symbol_near_death_trauma" icon_color="255,128,0" remove_on_death="false">
+	<buff name="buffNearDeathTrauma" name_key="buffNearDeathTraumaName" description_key="buffNearDeathTraumaDesc" icon="ui_game_symbol_near_death_trauma" icon_color="255,0,0" remove_on_death="false">
 		<!--<damage_type value="disease"/>-->
 		<stack_type value="replace"/>
 		<duration value="0"/>
