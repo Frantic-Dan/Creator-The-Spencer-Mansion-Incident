@@ -30084,7 +30084,7 @@ NOT the TextureNumber.
 	<property name="OpenSound" value="open_door_wood"/>
 	<property name="CloseSound" value="close_door_wood"/>
 	<property class="RepairItems"> <property name="resourceWood" value="20"/> </property>
-	<drop event="Harvest" name="resourceWood" count="10" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="0" tag="allHarvest"/>
 	<drop event="Destroy" name="resourceDoorKnob" count="1" tag="WasteTreasuresDoorHarvest"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
 	<property name="FilterTags" value="fdecor,fdoors"/>
@@ -30118,7 +30118,7 @@ NOT the TextureNumber.
 	<property name="OpenSound" value="open_door_wood"/>
 	<property name="CloseSound" value="close_door_wood"/>
 	<property class="RepairItems"> <property name="resourceScrapIron" value="200"/> </property>
-	<drop event="Harvest" name="resourceScrapIron" count="50" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="0" tag="allHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
 	<property name="FilterTags" value="fdecor,fdoors"/>
