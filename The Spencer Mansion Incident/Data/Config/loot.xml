@@ -4067,7 +4067,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 <lootcontainer id="65" count="1" size="6,1" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet" loot_quality_template="qualQ1Template">
 	<!-- <item name="gunHandgunT1Pistol" prob="0.025"/> -->
 	<item name="meleeWpnBladeT1CandyKnife" prob="0.05"/>
-	<item name="drinkJarRiverWater" count="0.95"/>
+	<item name="drinkJarRiverWater" prob="0.95" count="1"/>
 </lootcontainer>
 
 <lootcontainer id="66" count="1" size="6,2" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
