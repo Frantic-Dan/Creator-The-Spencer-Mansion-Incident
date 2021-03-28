@@ -1876,7 +1876,7 @@ workstations
 	<trader_info id="3" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" player_owned="true"/>
 
 	<!-- Vending Machines found in the world. -->
-	<trader_info id="4" full_reset="true" reset_interval="999" override_buy_markup="1" allow_sell="false" min_inventory="200" max_inventory="200" min_items_swapped="200" max_items_swapped="200">
+	<trader_info id="4" full_reset="true" reset_interval="999" override_buy_markup="1" allow_sell="false" min_inventory="190" max_inventory="190" min_items_swapped="190" max_items_swapped="190">
 		<trader_items count="10">
 			<item name="foodCanBeef" count="1"/>
 			<item name="foodCanChicken" count="1"/>
@@ -1891,7 +1891,6 @@ workstations
 			<item name="foodCanTuna" count="1"/>
 			<item name="drinkJarBeer" count="1"/>
 			<item name="drinkYuccaJuiceSmoothie" count="1"/>
-			<item name="drinkCanMegaCrush" count="1"/>
 			<item name="drugAtomJunkies" count="1"/>
 			<item name="drugEyeKandy" count="1"/>
 			<item name="drugHealthBar" count="1"/>
