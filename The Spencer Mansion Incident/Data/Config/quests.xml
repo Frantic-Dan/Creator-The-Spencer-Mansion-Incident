@@ -144,7 +144,7 @@
 		<property name="shareable" value="false"/>
 
 
-		<reward type="Exp" value="50"/>
+		<reward type="Exp" value="1300"/>
 
 	</quest>
 
@@ -159,7 +159,7 @@
 		<property name="shareable" value="false"/>
 
 
-		<reward type="Exp" value="50"/>
+		<reward type="Exp" value="1300"/>
 
 	</quest>
 
@@ -174,7 +174,7 @@
 		<property name="shareable" value="false"/>
 
 
-		<reward type="Exp" value="50"/>
+		<reward type="Exp" value="1300"/>
 
 	</quest>
 
@@ -189,7 +189,7 @@
 		<property name="shareable" value="false"/>
 
 
-		<reward type="Exp" value="50"/>
+		<reward type="Exp" value="1300"/>
 
 	</quest>
 
@@ -204,7 +204,7 @@
 		<property name="shareable" value="false"/>
 
 
-		<reward type="Exp" value="50"/>
+		<reward type="Exp" value="1300"/>
 
 	</quest>
 
