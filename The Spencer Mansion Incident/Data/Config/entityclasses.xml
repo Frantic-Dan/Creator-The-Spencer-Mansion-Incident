@@ -186,7 +186,7 @@
 			<requirement name="HoldingItemHasTags" tags="thrownWeapon"/>
 		</triggered_effect>
 
-		<passive_effect name="StaminaLoss" operation="base_set" value="20" tags="jumping"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="15" tags="jumping"/>
 		<passive_effect name="StaminaLoss" operation="base_set" value="40" tags="swimming"/>
 
 		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value="1"/>
@@ -200,7 +200,7 @@
 
 		<passive_effect name="CraftingTier" operation="base_set" value="0"/>
 		<passive_effect name="CarryCapacity" operation="base_set" value="0"/>
-		<passive_effect name="BagSize" operation="base_set" value="50"/> <!-- number of slots on the inventory UI -->
+		<passive_effect name="BagSize" operation="base_set" value="40"/> <!-- number of slots on the inventory UI -->
 
 		<passive_effect name="ProjectileStickChance" operation="base_set" value=".5"/>
 		<passive_effect name="ProjectileStickChance" operation="perc_add" value="-2" tags="glass"/>
@@ -509,7 +509,7 @@
 
 <entity_class name="Super Tyrant" extends="zombieTemplateMale">
 	<property name="Tags" value="entity,zombie,walker,feral,tyrant"/>
-	<property name="SizeScale" value="1.07"/>
+	<property name="SizeScale" value="1.15"/>
 	<property name="MaxViewAngle" value="350"/>
 	<property name="SightRange" value="90"/> <!-- distance in m -->
 	<property name="SightLightThreshold" value="-2,15"/> <!-- how well lit you have to be for the zombie to see you at min,max range -->
@@ -666,7 +666,7 @@
 </entity_class>
 
 <entity_class name="Boe Crawler" extends="zombieTemplateMale">
-	<property name="SizeScale" value="1.08"/>
+	<property name="SizeScale" value="1.02"/>
 	<property name="Tags" value="entity,zombie,walker"/>
 	<property name="SoundRandom" value="Enemies/Base_Zombie_Male2/zombiemale2roam"/>
 	<property name="SoundAlert" value="Enemies/Base_Zombie_Male2/zombiemale2alert"/>
@@ -2604,6 +2604,7 @@
 </entity_class>
 
 <entity_class name="Skateboarder Crawler" extends="zombieBoe">
+	<property name="SizeScale" value="0.96"/>
 	<property name="Tags" value="entity,zombie,walker"/>
 	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardHoodieRagdoll.prefab"/>
 	<property name="SoundRandom" value="zombiemaleroam"/>
@@ -2736,6 +2737,7 @@
 </entity_class>
 
 <entity_class name="Old Timer Crawler" extends="zombieBoe">
+	<property name="SizeScale" value="0.96"/>
 	<property name="Tags" value="entity,zombie,walker"/>
 	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardOldTimerRagdoll.prefab"/>
 	<property name="WalkType" value="4"/>
@@ -3356,7 +3358,7 @@
 
 	<!-- Gameplay -->
 	<property name="PainResistPerHit" value="1"/>
-	<property name="ExperienceGain" value="1500"/> <!-- XP strong -->
+	<property name="ExperienceGain" value="1125"/> <!-- XP strong -->
 	<property name="DeadBodyHitPoints" value="300"/>
 
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
@@ -3370,7 +3372,7 @@
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="1600"/>
+		<passive_effect name="HealthMax" operation="base_set" value="1200"/>
 		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
 	</effect_group>
 
@@ -3422,7 +3424,7 @@
 	<!-- Gameplay -->
 	<property name="HandItem" value="meleeHandAnimalZombieBear"/>
 
-	<property name="ExperienceGain" value="1875"/> <!-- XP strong -->
+	<property name="ExperienceGain" value="1406"/> <!-- XP strong -->
 	<property name="DeadBodyHitPoints" value="300"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="15"/> <!-- animalZombieBear -->
@@ -3435,7 +3437,7 @@
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="2000"/>
+		<passive_effect name="HealthMax" operation="base_set" value="1500"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
 	</effect_group>
 </entity_class>
