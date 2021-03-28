@@ -2711,7 +2711,7 @@ The overall plan for loot distribution:
 	<item name="resourceGlue"/>
 	<item name="resourceNail" count="3,5"/>
 	<item name="casinoCoin" count="3,5"/>
-	<item name="resourceScrapBrass" count="40,125"/>
+	<item name="resourceScrapBrass" count="40,75"/>
 	<!-- <item name="resourceFeather" count="2,3"/> -->
 	<item name="resourceDuctTape" count="1"/>
 	<item group="rottenFood"/>
@@ -2728,9 +2728,9 @@ The overall plan for loot distribution:
 <lootgroup name="brassResource">
 	<item name="resourceCandleStick" count="1,2"/>
 	<item name="resourceRadiator"/>
-	<item name="resourceScrapBrass" count="100,160" prob="2"/>
-	<item name="resourceDoorKnob" count="2,4"/>
-	<item name="resourceTrophy1" count="2,4"/>
+	<item name="resourceScrapBrass" count="80,120" prob="2"/>
+	<item name="resourceDoorKnob" count="2,3"/>
+	<item name="resourceTrophy1" count="2,3"/>
 </lootgroup>
 
 <lootgroup name="rareAutomotive">
@@ -2867,7 +2867,7 @@ The overall plan for loot distribution:
 <lootgroup name="sportingGoods">
 	<!-- <item name="meleeToolFlashlight02"/> -->
 	<item name="resourceGunPowder" count="15,25"/>
-	<item name="resourceScrapBrass" count="50,125"/>
+	<item name="resourceScrapBrass" count="50,85"/>
 	<!-- <item name="resourceArrowHeadSteelAP"/> -->
 	<item name="toolCookingGrill"/>
 	<item name="toolCookingPot"/>
@@ -3542,7 +3542,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 	<item group="groupWeaponsAllScaled" prob=".6"/>
 	<item group="groupModAllScaled" prob=".15"/>
 	<!-- <item group="groupAmmoAdvanced"/> -->
-	<item name="casinoCoin" count="100,150" prob="0.1"/>
+	<item name="casinoCoin" count="80,120" prob="0.1"/>
 	<item group="rareOres" prob="0.03"/>
 </lootgroup>
 
@@ -3582,7 +3582,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 </lootgroup>
 
 <lootgroup name="groupBuriedLootStashTreasure" count="all">
-	<item name="casinoCoin" count="2000"/>
+	<item name="casinoCoin" count="1500"/>
 	<item name="ammo9mmBulletBall" count="30"/>
 	<item name="ammoShotgunShell" count="12"/>
 	<item name="ammo44MagnumBulletBall" count="12"/>
@@ -4005,7 +4005,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 <!-- Apache Artifact Chest -->
 <lootcontainer id="56" size="6,2" sound_open="UseActions/open_apache_artifact_chest" sound_close="UseActions/close_apache_artifact_chest" loot_quality_template="qualBaseTemplate">
 	<!-- <item name="meleeToolRepairT0TazasStoneAxe"/> -->
-	<item name="casinoCoin" count="250,400"/>
+	<item name="casinoCoin" count="250,350"/>
 </lootcontainer>
 
 <!-- cntCharcoalGrillClosed -->
@@ -4111,7 +4111,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 	<item group="groupAmmoRegular" count="2" prob="20"/>
 	<item group="groupWeaponsAllScaled" prob="10"/>
 	<!-- <item name="apparelNightvisionGoggles" loot_prob_template="probTemplate1.0"/> -->
-	<item name="casinoCoin" count="175,300" prob="6"/>
+	<item name="casinoCoin" count="150,225" prob="6"/>
 	<item name="drugHerbalAntibiotics" count="1" prob="1.3"/>
 	<item group="rareMedicine" prob="2"/>
 	<item name="drugPainkillers" count="1" prob="3"/>
@@ -4140,7 +4140,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 	<item group="groupAmmoRegular" count="2,3" prob="8"/>
 	<item group="groupWeaponsAllScaled" prob="14"/>
 	<!-- <item name="apparelNightvisionGoggles" loot_prob_template="probTemplate0.5to1.0"/> -->
-	<item name="casinoCoin" count="250,400" prob="2.5"/>
+	<item name="casinoCoin" count="175,275" prob="2.5"/>
 	<item name="drugHerbalAntibiotics" count="1" prob="0.5"/>
 	<item group="rareMedicine" prob="0.75"/>
 	<item name="drugPainkillers" count="1" prob="1.25"/>
@@ -4166,7 +4166,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 	<item group="groupAmmoRegular" count="3" prob="8"/>
 	<item group="groupWeaponsAllScaled" prob="14"/>
 	<!-- <item name="apparelNightvisionGoggles" loot_prob_template="probTemplate0.5to1.0"/> -->
-	<item name="casinoCoin" count="350,550" prob="2.5"/>
+	<item name="casinoCoin" count="200,325" prob="2.5"/>
 	<item group="rareMedicine" count="1,2" prob="0.75"/>
 	<item name="drugVitamins" count="2" prob="1.75"/>
 	<!-- <item name="drugSteroids" count="2" prob="1.75"/> -->
@@ -4185,7 +4185,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 	<item group="groupAmmoRegular" count="3" prob="8"/>
 	<item group="groupWeaponsAllScaled" prob="14"/>
 	<!-- <item name="apparelNightvisionGoggles" loot_prob_template="probTemplate0.5to1.0"/> -->
-	<item name="casinoCoin" count="350,550" prob="2.5"/>
+	<item name="casinoCoin" count="250,375" prob="2.5"/>
 	<item group="rareMedicine" count="1,2" prob="0.75"/>
 	<item name="drugVitamins" count="2" prob="1.75"/>
 	<item group="groupModAllScaled" prob="1"/>
