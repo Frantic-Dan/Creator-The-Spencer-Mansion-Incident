@@ -6192,9 +6192,9 @@ needed?
 	<property name="HoldType" value="46"/>
 	<property class="Action0">
 		<property name="Delay" value="1.5"/> <!-- obsolete if rounds per minute exists -->
-		<property name="Range" value="3.6"/>
+		<property name="Range" value="3.2"/>
 		<property name="Sphere" value=".3"/>
-		<property name="DamageEntity" value="28"/>
+		<property name="DamageEntity" value="21"/>
 		<property name="DamageBlock" value="32"/>
 	</property>
 	<effect_group name="meleeHandAnimalBear" tiered="false">
@@ -6210,9 +6210,9 @@ needed?
 	<property name="Extends" value="meleeHandAnimalBear"/>
 	<property name="CreativeMode" value="None"/>
 	<property class="Action0">
-		<property name="Range" value="3.6"/>
-		<property name="DamageEntity" value="28"/>
-		<property name="DamageBlock" value="40"/>
+		<property name="Range" value="3.2"/>
+		<property name="DamageEntity" value="21"/>
+		<property name="DamageBlock" value="32"/>
 	</property>
 	<effect_group name="meleeHandAnimalZombieBear" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -8857,6 +8857,7 @@ add knockdown resist to armor
 	<property name="CustomIcon" value="armorLeatherHood"/>
 	<property name="DisplayType" value="armorLight"/>
 	<property name="Material" value="Mleather"/>
+	<property name="Weight" value="20"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="HoldType" value="45"/>
@@ -14442,11 +14443,11 @@ perkNightStalkerSilentNight
 		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="60"/>
 			<display_value name="dStaminaRegen" value=".15"/>
-			<display_value name="dRunSpeed" value=".5"/>
-			<display_value name="dDuration" value="120"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="add" value="123"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="set" value="363">
-				<requirement name="CVarCompare" cvar="$buffMegaCrushDuration" operation="GT" value="363"/></triggered_effect>
+			<display_value name="dRunSpeed" value=".15"/>
+			<display_value name="dDuration" value="600"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="add" value="603"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="set" value="1803">
+				<requirement name="CVarCompare" cvar="$buffMegaCrushDuration" operation="GT" value="1803"/></triggered_effect>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffMegaCrush"/>
 	</effect_group>
 
@@ -18587,7 +18588,7 @@ perkNightStalkerSilentNight
 	<property name="Material" value="MresourceScrapBrassMedium"/>
 	<property name="MeltTimePerUnit" value=".4"/>
 	<property name="Stacknumber" value="250"/> <!-- STK loot -->
-	<property name="Weight" value="50"/>
+	<property name="Weight" value="20"/>
 	<property name="EconomicValue" value="40"/>
 	<property name="Group" value="Resources"/>
 </item>
@@ -18601,7 +18602,7 @@ perkNightStalkerSilentNight
 	<property name="Material" value="MresourceScrapBrassMedium"/>
 	<property name="MeltTimePerUnit" value=".4"/>
 	<property name="Stacknumber" value="250"/> <!-- STK loot -->
-	<property name="Weight" value="150"/>
+	<property name="Weight" value="50"/>
 	<property name="EconomicValue" value="120"/>
 	<property name="Group" value="Resources"/>
 </item>
@@ -18615,7 +18616,7 @@ perkNightStalkerSilentNight
 	<property name="Material" value="MresourceScrapBrassLarge"/>
 	<property name="MeltTimePerUnit" value=".4"/>
 	<property name="Stacknumber" value="20"/> <!-- STK loot -->
-	<property name="Weight" value="250"/>
+	<property name="Weight" value="100"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="Group" value="Resources"/>
 </item>
@@ -18642,7 +18643,7 @@ perkNightStalkerSilentNight
 	<property name="Material" value="MresourceScrapBrassMedium"/>
 	<property name="MeltTimePerUnit" value=".4"/>
 	<property name="Stacknumber" value="250"/> <!-- STK loot -->
-	<property name="Weight" value="50"/>
+	<property name="Weight" value="20"/>
 	<property name="EconomicValue" value="40"/>
 	<property name="Group" value="Resources"/>
 </item>
@@ -19135,7 +19136,7 @@ perkNightStalkerSilentNight
 	<property name="Tags" value="junk"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="CustomIcon" value="resourcePaper"/>
+	<property name="CustomIcon" value="schematicMaster"/>
 	<property name="Material" value="Mpaper"/>
 	<property name="Weight" value="1"/>
 	<property name="Stacknumber" value="1"/>
@@ -19151,7 +19152,7 @@ perkNightStalkerSilentNight
 	<property name="Tags" value="junk"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="CustomIcon" value="resourcePaper"/>
+	<property name="CustomIcon" value="schematicMaster"/>
 	<property name="Material" value="Mpaper"/>
 	<property name="Weight" value="1"/>
 	<property name="Stacknumber" value="1"/>
@@ -19167,9 +19168,9 @@ perkNightStalkerSilentNight
 	<property name="Tags" value="junk"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="CustomIcon" value="resourcePaper"/>
+	<property name="CustomIcon" value="schematicMaster"/>
 	<property name="Material" value="Mpaper"/>
-	<property name="Weight" value="1"/>
+	<property name="Weight" value="0"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="EconomicValue" value="0"/>
@@ -19183,7 +19184,7 @@ perkNightStalkerSilentNight
 	<property name="Tags" value="junk"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="CustomIcon" value="resourcePaper"/>
+	<property name="CustomIcon" value="schematicMaster"/>
 	<property name="Material" value="Mpaper"/>
 	<property name="Weight" value="1"/>
 	<property name="Stacknumber" value="1"/>
@@ -19199,7 +19200,7 @@ perkNightStalkerSilentNight
 	<property name="Tags" value="junk"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="CustomIcon" value="resourcePaper"/>
+	<property name="CustomIcon" value="schematicMaster"/>
 	<property name="Material" value="Mpaper"/>
 	<property name="Weight" value="1"/>
 	<property name="Stacknumber" value="1"/>
@@ -19215,7 +19216,7 @@ perkNightStalkerSilentNight
 	<property name="Tags" value="junk"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="CustomIcon" value="resourcePaper"/>
+	<property name="CustomIcon" value="schematicMaster"/>
 	<property name="Material" value="Mpaper"/>
 	<property name="Weight" value="1"/>
 	<property name="Stacknumber" value="1"/>
@@ -19231,7 +19232,7 @@ perkNightStalkerSilentNight
 	<property name="Tags" value="junk"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="CustomIcon" value="resourcePaper"/>
+	<property name="CustomIcon" value="schematicMaster"/>
 	<property name="Material" value="Mpaper"/>
 	<property name="Weight" value="1"/>
 	<property name="Stacknumber" value="1"/>
