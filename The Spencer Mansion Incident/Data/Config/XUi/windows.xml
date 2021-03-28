@@ -667,7 +667,7 @@
 			<rect pos="303,0" width="300" controller="ContainerStandardControls" move_start_bottom_left="true">
 				<button depth="3" name="btnClearInventory" sprite="ui_game_symbol_trash" tooltip_key="lblClearInventory" pos="200, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" visible="{creativewindowopen}" />
 
-				<button depth="3" name="btnSort"           sprite="ui_game_symbol_sort"  tooltip_key="lblSortContainer"  pos="0, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
+			<!--	<button depth="3" name="btnSort"           sprite="ui_game_symbol_sort"  tooltip_key="lblSortContainer"  pos="0, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" /> -->
 				
 				<rect pos="0, 0" visible="{lootingorvehiclestorage}">
 					<button   depth="3" name="btnMoveAll"          sprite="ui_game_symbol_store_all_down"     tooltip_key="lblStashAll"             pos="80, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
@@ -691,9 +691,19 @@
 		<panel name="content" width="100%" height="303" depth="0" pos="0,-46" disableautobackground="true">
 				<!-- <sprite name="background" color="[black]" type="sliced" globalopacity="true"/> -->
 				<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="673" height="336" color="[black]" type="sliced" fillcenter="false" on_press="true" />
-				<grid depth="10" name="inventory" rows="5" cols="10" pos="3,-3" cell_width="67" cell_height="67" controller="Backpack" repeat_content="true" >
+				<grid depth="10" name="inventory" rows="4" cols="10" pos="3,-70" cell_width="67" cell_height="67" controller="Backpack" repeat_content="true" >
 					<backpack_item_stack name="0"/>
 				</grid>
+
+<rect pos="3,-3" controller="Toolbelt">
+                <grid depth="10" name="inventory" rows="1" cols="10" pos="0,0" cell_width="67" cell_height="67" repeat_content="true">
+                    <backpack_item_stack name="0"/>
+                </grid>
+                <grid depth="10" name="inventory2" rows="1" cols="10" pos="0,82" cell_width="67" cell_height="67" repeat_content="true" visible="{secondrow}">
+                    <backpack_item_stack name="0"/>
+                </grid>
+            </rect>
+
 		</panel>
 	</window>
 
