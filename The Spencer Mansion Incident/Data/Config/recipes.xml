@@ -1138,6 +1138,15 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="drinkJarBoiledWater" count="1"/>
 </recipe>
 
+<recipe name="drinkCanMegaCrush" count="1" craft_area="campfire" craft_time="60">
+	<ingredient name="drinkJarPureMineralWater" count="1"/>
+	<ingredient name="foodCropYuccaFruit" count="2"/>
+	<ingredient name="foodCropBlueberries" count="2"/>
+	<ingredient name="resourceCropCoffeeBeans" count="2"/>
+	<ingredient name="resourceCropHopsFlower" count="2"/>
+	<ingredient name="Snowberry Juice" count="1"/>
+</recipe>
+
 <recipe name="drinkJarRiverWater" count="1" craft_area="campfire" tags="perkMasterChef">
 	<ingredient name="resourceSnowBall" count="1"/>
 	<ingredient name="drinkJarEmpty" count="1"/>
@@ -1936,6 +1945,10 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 
 <recipe name="Crushed Painkiller" count="2" craft_time="5">
 	<ingredient name="drugPainkillers" count="1"/>
+</recipe>
+
+<recipe name="medicalFirstAidBandageSchematic" count="1" craft_time="900">
+	<ingredient name="Botany Book" count="1"/>
 </recipe>
 
 <recipe name="medicalFirstAidBandage" count="1" craft_time="10" tags="learnable">
@@ -3456,7 +3469,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 
 <recipe name="thrownAmmoMolotovCocktail" count="1" craft_time="12">
 	<ingredient name="resourceCloth" count="2"/>
-	<ingredient name="ammoGasCan" count="360"/>
+	<ingredient name="ammoGasCan" count="240"/>
 	<ingredient name="resourceOil" count="1"/>
 	<ingredient name="drinkJarEmpty" count="1"/>
 </recipe>
