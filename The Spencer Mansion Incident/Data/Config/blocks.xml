@@ -29353,7 +29353,7 @@ NOT the TextureNumber.
 	<property name="Place" value="TowardsPlacer"/>
 	<property name="AllowAllRotations" value="true"/>
 	<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
-	<property class="RepairItems"> <property name="resourceForgedIron" value="10"/> </property>
+	<property class="RepairItems"> <property name="resourceForgedIron" value="1000"/> </property>
 	<drop event="Harvest" name="resourceScrapIron" count="16" tag="allHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
