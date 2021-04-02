@@ -1113,8 +1113,7 @@ onSelfDestroyedBlock && onSelfDamagedBlock were not yet
 				<passive_effect name="WaterChangeOT" operation="perc_add" value="-.99"/>
 				<passive_effect name="FoodChangeOT" operation="perc_add" value="-.99"/>
 				<passive_effect name="StaminaLoss" operation="perc_add" value="-.1"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
-				<passive_effect name="ElementalDamageResist" operation="base_add" value="10" tags="heat,electrical"/>
+				<passive_effect name="HealthLoss" operation="perc_add" value="-.15"/>
 		</effect_group>
 		<effect_group>
 			<requirement name="PlayerLevel" operation="Equals" value="2"/>
@@ -1125,8 +1124,7 @@ onSelfDestroyedBlock && onSelfDamagedBlock were not yet
 				<passive_effect name="WaterChangeOT" operation="perc_add" value="-.99"/>
 				<passive_effect name="FoodChangeOT" operation="perc_add" value="-.99"/>
 				<passive_effect name="StaminaLoss" operation="perc_add" value="-.1"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
-				<passive_effect name="ElementalDamageResist" operation="base_add" value="10" tags="heat,electrical"/>
+				<passive_effect name="HealthLoss" operation="perc_add" value="-.15"/>
 		</effect_group>
 		<effect_group>
 			<requirement name="PlayerLevel" operation="Equals" value="3"/>
@@ -1137,8 +1135,7 @@ onSelfDestroyedBlock && onSelfDamagedBlock were not yet
 				<passive_effect name="WaterChangeOT" operation="perc_add" value="-.99"/>
 				<passive_effect name="FoodChangeOT" operation="perc_add" value="-.99"/>
 				<passive_effect name="StaminaLoss" operation="perc_add" value="-.1"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
-				<passive_effect name="ElementalDamageResist" operation="base_add" value="10" tags="heat,electrical"/>
+				<passive_effect name="HealthLoss" operation="perc_add" value="-.15"/>
 		</effect_group>
 		<effect_group>
 			<requirement name="PlayerLevel" operation="Equals" value="4"/>
@@ -1149,8 +1146,7 @@ onSelfDestroyedBlock && onSelfDamagedBlock were not yet
 				<passive_effect name="WaterChangeOT" operation="perc_add" value="-.99"/>
 				<passive_effect name="FoodChangeOT" operation="perc_add" value="-.99"/>
 				<passive_effect name="StaminaLoss" operation="perc_add" value="-.1"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
-				<passive_effect name="ElementalDamageResist" operation="base_add" value="10" tags="heat,electrical"/>
+				<passive_effect name="HealthLoss" operation="perc_add" value="-.15"/>
 		</effect_group>
 		<effect_group>
 			<requirement name="PlayerLevel" operation="Equals" value="5"/>
@@ -1161,8 +1157,7 @@ onSelfDestroyedBlock && onSelfDamagedBlock were not yet
 				<passive_effect name="WaterChangeOT" operation="perc_add" value="-.99"/>
 				<passive_effect name="FoodChangeOT" operation="perc_add" value="-.99"/>
 				<passive_effect name="StaminaLoss" operation="perc_add" value="-.1"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
-				<passive_effect name="ElementalDamageResist" operation="base_add" value="10" tags="heat,electrical"/>
+				<passive_effect name="HealthLoss" operation="perc_add" value="-.15"/>
 		</effect_group>
 
 		<effect_group>
