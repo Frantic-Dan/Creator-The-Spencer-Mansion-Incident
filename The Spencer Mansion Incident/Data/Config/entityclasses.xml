@@ -2141,7 +2141,7 @@
 
 <entity_class name="zombieFatHawaiianFeral" extends="zombieFatHawaiian">
 	<property name="Tags" value="entity,zombie,walker,feral"/>
-	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardHawaiianFeralHDRagdoll.prefab"/>
+	<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat"/>
 
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
