@@ -20993,7 +20993,7 @@ NOT the TextureNumber.
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="DisplayType" value="blockHardened"/>
 	<property name="Material" value="Mcloth"/>
-	<property name="MaxDamage" value="50"/>
+	<property name="MaxDamage" value="1"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="StabilitySupport" value="false"/>
 	<property name="IsTerrainDecoration" value="true"/>
