@@ -20998,9 +20998,9 @@ NOT the TextureNumber.
 	<property name="StabilitySupport" value="false"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Collide" value="melee,bullet,arrow,rocket"/>
-	<drop event="Destroy" name="gunExplosivesT3RocketLauncher" count="1"/>
-	<drop event="Destroy" name="ammoRocketFrag" count="1"/>
-	<drop event="Fall" name="ammoRocketFrag" count="0" prob="0" stick_chance="0"/>
+	<drop event="Harvest" name="gunExplosivesT3RocketLauncher" count="1" tag="allHarvest"/>
+	<drop event="Harvest" name="ammoRocketFrag" count="1" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
 	<property name="FilterTags" value="floot"/>
 </block>
 
