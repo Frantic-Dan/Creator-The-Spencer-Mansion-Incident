@@ -2244,10 +2244,10 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="ammoGasCan" count="20"/>
 </recipe>
 
-<!-- <recipe name="meleeToolWireTool" count="1" craft_area="workbench" tags="workbenchCrafting">
+<recipe name="meleeToolWireTool" count="1" craft_area="workbench" tags="workbenchCrafting">
 	<ingredient name="resourceForgedSteel" count="9"/>
 	<ingredient name="resourceMechanicalParts" count="3"/>
-</recipe> -->
+</recipe>
 
 <!-- <recipe name="meleeToolSalvageT1Wrench" count="1" tags="learnable,perkSalvageOperations">
 	<ingredient name="resourceForgedIron" count="15"/>
