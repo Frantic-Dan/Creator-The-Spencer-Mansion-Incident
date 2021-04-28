@@ -288,6 +288,7 @@ Mesh files no longer used:
 	<property name="Material" value="Mmetal"/> <property name="Weight" value="0"/>
 	<property name="DescriptionKey" value="UpgradeTool"/>
 	<property name="CustomIcon" value="meleeToolWireTool"/>
+	<property name="CustomIconTint" value="47,47,47"/>
 	<property name="RepairTools" value="resourceWood"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
@@ -14483,7 +14484,7 @@ perkNightStalkerSilentNight
 		<display_value name="dDuration" value="300"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="add" value="303"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="903">
-			<requirement name="CVarCompare" cvar="$buffCoffeeDuration" operation="GT" value="543"/></triggered_effect>
+			<requirement name="CVarCompare" cvar="$buffCoffeeDuration" operation="GT" value="903"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffCoffee"/>
 	</effect_group>
 
