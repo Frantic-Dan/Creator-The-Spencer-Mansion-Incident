@@ -12537,10 +12537,10 @@ perkNightStalkerSilentNight
 		<display_value name="dCarryCapacity" value="50"/>
 		<display_value name="dRunSpeed" value=".1"/>
 		<display_value name="$waterAmountAdd" value="-30"/>
-		<display_value name="dDuration" value="600"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugSteroidsDuration" operation="add" value="603"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugSteroidsDuration" operation="set" value="1803">
-			<requirement name="CVarCompare" cvar="$buffDrugSteroidsDuration" operation="GT" value="1803"/></triggered_effect>
+		<display_value name="dDuration" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugSteroidsDuration" operation="add" value="13"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugSteroidsDuration" operation="set" value="33">
+			<requirement name="CVarCompare" cvar="$buffDrugSteroidsDuration" operation="GT" value="33"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDrugSteroids"/>
 	</effect_group>
 </item>
@@ -12582,7 +12582,7 @@ perkNightStalkerSilentNight
 		<display_value name="dDuration" value="300"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugFortBitesDuration" operation="add" value="303"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugFortBitesDuration" operation="set" value="903">
-			<requirement name="CVarCompare" cvar="$buffDrugFortBitesDuration" operation="GT" value="363"/></triggered_effect>
+			<requirement name="CVarCompare" cvar="$buffDrugFortBitesDuration" operation="GT" value="903"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDrugFortBites"/>
 	</effect_group>
 </item>
@@ -12609,7 +12609,7 @@ perkNightStalkerSilentNight
 		<display_value name="dDuration" value="600"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugAtomJunkiesDuration" operation="add" value="603"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugAtomJunkiesDuration" operation="set" value="1803">
-			<requirement name="CVarCompare" cvar="$buffDrugAtomJunkiesDuration" operation="GT" value="903"/></triggered_effect>
+			<requirement name="CVarCompare" cvar="$buffDrugAtomJunkiesDuration" operation="GT" value="1803"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDrugAtomJunkies"/>
 
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="5"/>
@@ -12643,7 +12643,7 @@ perkNightStalkerSilentNight
 		<display_value name="dDuration" value="600"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugEyeKandyDuration" operation="add" value="603"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugEyeKandyDuration" operation="set" value="1803">
-			<requirement name="CVarCompare" cvar="$buffDrugEyeKandyDuration" operation="GT" value="903"/></triggered_effect>
+			<requirement name="CVarCompare" cvar="$buffDrugEyeKandyDuration" operation="GT" value="1803"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDrugEyeKandy"/>
 
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="5"/>
@@ -12677,7 +12677,7 @@ perkNightStalkerSilentNight
 		<display_value name="dDuration" value="600"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugHealthBarDuration" operation="add" value="603"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugHealthBarDuration" operation="set" value="1803">
-			<requirement name="CVarCompare" cvar="$buffDrugHealthBarDuration" operation="GT" value="903"/></triggered_effect>
+			<requirement name="CVarCompare" cvar="$buffDrugHealthBarDuration" operation="GT" value="1803"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDrugHealthBar"/>
 
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="5"/>
@@ -12709,7 +12709,7 @@ perkNightStalkerSilentNight
 		<display_value name="dDuration" value="600"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugNerdTatsDuration" operation="add" value="603"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugNerdTatsDuration" operation="set" value="1803">
-			<requirement name="CVarCompare" cvar="$buffDrugNerdTatsDuration" operation="GT" value="903"/></triggered_effect>
+			<requirement name="CVarCompare" cvar="$buffDrugNerdTatsDuration" operation="GT" value="1803"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDrugNerdTats"/>
 
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="5"/>
@@ -12757,7 +12757,7 @@ perkNightStalkerSilentNight
 		<display_value name="dDuration" value="600"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugSkullCrushersDuration" operation="add" value="603"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugSkullCrushersDuration" operation="set" value="1803">
-			<requirement name="CVarCompare" cvar="$buffDrugSkullCrushersDuration" operation="GT" value="903"/></triggered_effect>
+			<requirement name="CVarCompare" cvar="$buffDrugSkullCrushersDuration" operation="GT" value="1803"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDrugSkullCrushers"/>
 
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="5"/>
@@ -14507,7 +14507,7 @@ perkNightStalkerSilentNight
 			<display_value name="dDuration" value="600"/>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffCoffeeBSDuration" operation="add" value="603"/>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffCoffeeBSDuration" operation="set" value="1803">
-			<requirement name="CVarCompare" cvar="$buffCoffeeBSDuration" operation="GT" value="1083"/></triggered_effect>
+			<requirement name="CVarCompare" cvar="$buffCoffeeBSDuration" operation="GT" value="1803"/></triggered_effect>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffBlackStrapCoffee"/>
 	</effect_group>
 
